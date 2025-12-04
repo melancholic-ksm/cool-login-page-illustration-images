@@ -1,6 +1,6 @@
 # 🎨 Cool Login Page Illustration Images
 
-![Login Page UI](https://raw.githubusercontent. com/melancholic-ksm/cool-login-page-illustration-images/main/Image.png)
+![Login Page UI](https://res.cloudinary.com/dv3cp6bda/image/upload/v1764839520/Image_tqq8xj.png)
 
 A curated collection of **20 beautiful illustration images** designed specifically for split-screen login/signup pages. Perfect for modern web applications that want to add visual appeal to their authentication screens.
 
