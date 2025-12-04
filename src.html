@@ -1,3 +1,12 @@
+ <!-- Make sure the `/login-illust/xy.png` folder is hanging out in the same directory before you run this code—otherwise it’ll feel left out! -->
+ <!-- https://github.com/melancholic-ksm/cool-login-page-illustration-images -->
+ <!-- ctrl+f and remove this line 
+`          <p class="credit">
+            Credit:<a href="https://github.com/melancholic-ksm/cool-login-page-illustration-images" target="_blank">melancholic-ksm/github
+            </a>
+          </p>` 
+        if using in production --> 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -220,7 +229,7 @@
     // Random illustration between 01.png and 20.png
     const idx = String(Math.floor(Math.random() * 20) + 1).padStart(2, "0");
     document.getElementById("login-illustration").src =
-      `https://raw.githubusercontent.com/melancholic-ksm/cool-login-page-illustration-images/main/login-illust/${idx}.png`;
+      `/login-illust/${idx}.png`;
   </script>
 </body>
 </html>
